@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build" # Использует команду сборки из package.json
+  publish = "dist" # Укажите директорию, куда Vite будет сохранять скомпилированные файлы
+
+[build.environment]
+  NODE_VERSION = "16" # Укажите версию Node.js, если требуется
